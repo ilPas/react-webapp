@@ -1,6 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Figlio from "./Figlio";
+import Fratello from "./Fratello";
+import Sorella from "./Sorella";
+import FiglioStock from "./FiglioStock";
 
 function App() {
   return (
@@ -10,6 +14,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Figlio />
+        <Fratello />
+        <Sorella />
+        <FiglioStock nome="Pas" eta="indefinita" />
         <a
           className="App-link"
           href="https://reactjs.org"
